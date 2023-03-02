@@ -1,0 +1,30 @@
+.footer {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 85px 0 ;
+}
+
+.footer li {
+    font-size: 28px;
+}
+
+.footer img {
+    margin-bottom: 10px;
+}
+
+.reseaux {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.reseaux-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.reseaux-icons img {
+    padding: 20px;
+}
+

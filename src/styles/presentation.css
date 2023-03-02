@@ -1,0 +1,56 @@
+.presentation {
+    display: flex;
+}
+
+.top-presentation {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    /* border: 1px solid green; */
+}
+
+.photo1 , .photo2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 200px;
+}
+
+.photo1 {
+    /* position: absolute; */
+    top: -28px;
+    right: 107px;
+}
+
+.photo2 {
+    /* position: absolute; */
+    top: 117px;
+    right: -29px;
+}
+
+.bottom-presentation {
+    max-width: 50%;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 26px;
+    padding: 130px;
+}
+
+.bottom-presentation h2 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+
+.div-button-concept {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}

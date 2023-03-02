@@ -1,0 +1,35 @@
+.concept {
+    margin: 105px 115px 165px 115px;
+}
+
+.top-concept {
+    display: flex;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.top-concept img {
+    height: 310px;
+}
+
+.top-concept h2 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 36px;
+}
+
+.bien-chez-soi {
+    text-transform: capitalize;
+}
+
+.concept-top-div {
+    margin-bottom: 25px;
+}
+
+.comment-ca-marche {
+    margin-top: 90px;
+}
+
+.info-block {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,66 @@
+.header{
+    position: relative;
+}
+
+.image-header{
+    width: 100%;
+    height: auto;
+ }
+
+ .top-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 86px 0 118px;
+}
+
+.top-header img {
+    height: 91px;
+}
+
+/* .top-header >* {
+    border: solid 2px red;
+} */
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 852px;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+nav ul {
+    width: 348px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-header {
+    /* border: solid 2px red; */
+    color: white;
+    width: 665px;
+    margin-top: 200px;
+    margin-left: 40px;
+    text-align: right;
+}
+
+.overlay{
+    margin-top: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 46px !important;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.bottom-header p {
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 32px;
+}
